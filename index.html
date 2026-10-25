@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1013">
+  <meta name="description" content="Négy jelkép, négy őrző, egyetlen eskü. Interaktív fantasy rejtvény.">
+  <title>A Négy Pecsét · Heroes of the Borderlands</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/puzzle.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><span class="eyebrow">Heroes of the Borderlands</span><div class="ornament" aria-hidden="true">✦</div><h1>A Négy Pecsét</h1><p class="subtitle">A kőbe zárt eskü</p></header>
+    <section class="chamber" aria-label="A titkos ajtó">
+      <div class="door" aria-hidden="true"><div class="beyond"></div><div class="leaf left"></div><div class="leaf right"></div><span class="door-rune">✦</span></div>
+      <div class="inscription"><span class="eyebrow">Az őrzők felirata</span><p class="oath">Négy jelkép, négy őrző, egyetlen eskü.</p><div class="clues"><p>A Csillag és a Kard között pontosan egy pecsét áll.</p><p>A Hold közelebb pihen a Csillaghoz, mint a Koronához.</p><p>A Korona sosem előzheti meg a Kardot.</p><p>A Hold sem az első, sem az utolsó helyet nem foglalhatja el.</p><p>A Kard közelebb áll a Koronához, mint a Csillaghoz.</p></div><p class="prophecy">Ha az eskü rendje helyreáll, a kő emlékezni fog.</p></div>
+    </section>
+    <section class="controls" aria-label="A pecsétek beállítása"><p class="instruction">Érintsd meg a pecséteket a forgatáshoz.<br><span>Mind a négy jelképet egyszer használd, balról jobbra.</span></p><div class="seals" id="seals"></div><button class="activate" id="activate">Pecsétek aktiválása <span aria-hidden="true">⟶</span></button><p id="status" role="status" aria-live="polite">A kő csendben vár.</p><button id="reset" class="reset" hidden>Az eskü újrakezdése</button></section>
+    <footer><span aria-hidden="true">◆</span> A határvidék titkai <span aria-hidden="true">◆</span></footer>
+  </main>
+</body>
+</html>
